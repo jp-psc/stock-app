@@ -1,10 +1,14 @@
-import React from "react";
-import stocks from "../data.json"
+import React, { useState } from "react";
+import Stock from "./Stock";
+import data from "../data"
 
-function Dashboard() {
+function Dashboard(props) {
+    let [stock, setStock] = useState(data)
+
+
     return (
         <div>
-            
+            <Stocks stock={stock} setStock={setStock} />            
         </div>
     )
 }

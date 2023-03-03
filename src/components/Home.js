@@ -1,8 +1,9 @@
 import React from "react";
+import Dashboard from "./Dashboard";
 
 function Home() {
     return (
-        <div>Homepage</div>
+        <div><Dashboard /></div>
     )
 }
 
