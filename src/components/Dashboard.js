@@ -8,7 +8,7 @@ function Dashboard(props) {
 
     return (
         <div>
-            <Stocks stock={stock} setStock={setStock} />            
+            <Stock stock={stock} setStock={setStock} />            
         </div>
     )
 }
